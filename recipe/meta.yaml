@@ -1,6 +1,6 @@
 {% set name = "openpathsampling-cli" %}
-{% set version = "0.0.2" %}
-{% set sha256 = "31932e7a85edbc8a3d91758eead915322dc99e1dde70d61bd95fc30daf356cba" %}
+{% set version = "0.0.3" %}
+{% set sha256 = "2fbcebdec71f9c52f4a59dae3e8d5fdc72f2ea7445777fa2fe757d1083a18004" %}
 
 package:
   name: {{ name|lower }}
@@ -15,7 +15,7 @@ build:
   noarch: python
   entry_points:
     - openpathsampling = paths_cli.cli:main
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -37,13 +37,13 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'Command line tools for OpenPathSampling'
+  summary: Command line tools for OpenPathSampling
 
   description: |
-      OpenPathSampling (OPS) is a powerful Python library for path sampling
-      simulations. The openpathsampling-cli package provides a useful
-      command line interface for working with OPS files and for running OPS
-      simulations. 
+    OpenPathSampling (OPS) is a powerful Python library for path sampling
+    simulations. The openpathsampling-cli package provides a useful
+    command line interface for working with OPS files and for running OPS
+    simulations. 
   doc_url: https://openpathsampling-cli.readthedocs.io/
   dev_url: https://github.com/openpathsampling/openpathsampling-cli
 
