@@ -5,7 +5,7 @@ Home: https://github.com/openpathsampling/openpathsampling-cli
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Command line tools for OpenPathSampling
 
