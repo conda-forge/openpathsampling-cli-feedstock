@@ -5,9 +5,13 @@ Home: https://github.com/openpathsampling/openpathsampling-cli
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openpathsampling-cli-feedstock/blob/master/LICENSE.txt)
 
 Summary: Command line tools for OpenPathSampling
+
+Development: https://github.com/openpathsampling/openpathsampling-cli
+
+Documentation: https://openpathsampling-cli.readthedocs.io/
 
 OpenPathSampling (OPS) is a powerful Python library for path sampling
 simulations. The openpathsampling-cli package provides a useful
