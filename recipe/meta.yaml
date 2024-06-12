@@ -1,13 +1,13 @@
 {% set name = "openpathsampling-cli" %}
-{% set version = "0.2.1" %}
-{% set sha256 = "08522523f0ce1b607ce2c0794fb8256598041dd95498ae49f1e8c1cb03258774" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "782bde879c668f85d7ee0d6ed6d3ef23f90bf5004d4889a099cc504ae13174fd" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
