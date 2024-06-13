@@ -19,13 +19,13 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.10
     - pip
   run:
-    - python >=3.6
+    - python >=3.10
     - click
     - tqdm
-    - openpathsampling >=1.2
+    - openpathsampling >=1.6
 
 test:
   imports:
